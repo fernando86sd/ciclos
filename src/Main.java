@@ -1,10 +1,9 @@
 import java.util.Scanner;
 
 public class Main {
-
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("ingrece el numero por favor: ");
+        System.out.print("ingrece un numero por favor: ");
         int n = scanner.nextInt();
         System.out.print("Elija un tipo de bucle  (For/While/Do-while): ");
         String eleccion = scanner.next();
